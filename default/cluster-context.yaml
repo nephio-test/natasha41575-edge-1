@@ -10,4 +10,4 @@ spec:
   cniConfig:
     cniType: macvlan
     masterInterface: ens1
-  siteCode: edge-1-watch-test
+  siteCode: edge-1-watch-test-2
