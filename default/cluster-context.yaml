@@ -7,4 +7,4 @@ metadata: # kpt-merge: /cluster-context
     automation.nephio.org/config-injection: "True"
     internal.kpt.dev/upstream-identifier: 'infra.nephio.org|ClusterContext|default|cluster-context'
 spec:
-  siteCode: edge-1-watch-test-2
+  siteCode: Foo
