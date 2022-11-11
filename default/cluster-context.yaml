@@ -7,7 +7,4 @@ metadata: # kpt-merge: /cluster-context
     automation.nephio.org/config-injection: "True"
     internal.kpt.dev/upstream-identifier: 'infra.nephio.org|ClusterContext|default|cluster-context'
 spec:
-  cniConfig:
-    cniType: macvlan
-    masterInterface: ens1
   siteCode: edge-1-watch-test-2
