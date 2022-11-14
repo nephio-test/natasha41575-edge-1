@@ -4,8 +4,8 @@ metadata: # kpt-merge: /cluster-context
   name: cluster-context
   annotations:
     automation.nephio.org/config-injection: "True"
-    automation.nephio.org/injection-hash: tf44dbdhck9g556
+    automation.nephio.org/injection-hash: kkt7598k6m8tbc4
     config.kubernetes.io/local-config: "True"
     internal.kpt.dev/upstream-identifier: infra.nephio.org|ClusterContext|default|cluster-context
 spec:
-  siteCode: testasdlfj
+  siteCode: aaaaasdlfj
