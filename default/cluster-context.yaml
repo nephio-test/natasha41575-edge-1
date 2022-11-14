@@ -3,9 +3,11 @@ kind: ClusterContext
 metadata: # kpt-merge: /cluster-context
   name: cluster-context
   annotations:
-    automation.nephio.org/config-injection: "True"
-    automation.nephio.org/injection-hash: 45778h8m5h8g8k6
     config.kubernetes.io/local-config: "True"
-    internal.kpt.dev/upstream-identifier: infra.nephio.org|ClusterContext|default|cluster-context
+    automation.nephio.org/config-injection: "True"
+    internal.kpt.dev/upstream-identifier: 'infra.nephio.org|ClusterContext|default|cluster-context'
 spec:
-  siteCode: alfj
+  siteCode: example
+  cniConfig:
+    cniType: macvlan
+    masterInterface: ens0
